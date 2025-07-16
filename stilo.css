@@ -49,14 +49,33 @@ main{
 
 }
 
+.documento{
+
+    background-color: rgb(239, 245, 205);
+    border-color: rgba(0, 0, 0, 0);
+
+}
+
 article{
 
-    
+        
     max-height: 1000px;
     max-width: 600px;
+    padding-left: 200px;
 
+}
 
-
+textarea {
+    margin-top: 10px;
+    resize: none;
+    border: none;
+    background-color: #e2e2e267;
+    height: 200px;
+    display: block;
+    width: 400px;
+    text-decoration: none;
+    border-color: #ffffff00;
+    text-align: left;
 }
 
 .imagen{
@@ -76,7 +95,8 @@ a{
 .boton1{
 
     
-    height: 50px;
+    height: 40px;
+    width: 200px;
     background-color: #5f9ea0;
     border-radius: 5px;
     border-color: rgba(255, 255, 255, 0);
